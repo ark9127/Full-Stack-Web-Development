@@ -1,0 +1,35 @@
+Q2. Explain the purpose of comments  in HTML and provide an example of how to use comments in a HTML document?
+Solution 2:
+    The purpose of comments in HTML, not rendered by the browser, is to provide the context of the block or piece of written code. 
+    It helps in following ways:
+     - Documentation: brief description on the code helps developer to quickly understand the task performed by the given piece of code without actually going through It
+     - Debugging: By commenting a piece of code can also help developer to debug or test the remaining code
+     - Reminder: can be used as reminder for future references, during maintenance, enhancement, or completing unfinished code
+
+     Example:
+     1. Single Line Comments
+      <!-- Single Line Comment -->
+
+     2. Multiple Line Comments
+      <!-- Multiple
+            Line
+            Comments --> 
+
+
+Q4. Write a short note on Tag and Element with an example?
+Solution 4: 
+    Tag: Tags are the building blocks of HTML documents and consist of angular bracket enclosing specific keywords
+     - HTML tag is composed of an opening tag and in some cases a closing tag. e.g:
+        Opening tag - <tagname>
+        Closing tag - </tagname>
+     - Paired tags: consist of both Opening and closing tag. e.g: <p>, <head>, <body>, <h1>, etc....
+     - Singular tags: consist of opening tag. doesn\t require closing tag. e.g: <img/>, <br/>, <input/>, etc....
+
+    Element: Elements are the building blocks of HTML documents. It consist of Opening tag, content or text and Closing tag (applicable for paired tags).
+     e.g: <p>This is paragraph</p>
+     <input/>
+
+
+Q5. What is the DOCTYPE Declaration in HTML?
+Solution 5: The DOCTYPE declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.
+<!DOCTYPE html> - this declaration is for HTML 5
