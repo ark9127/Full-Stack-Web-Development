@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+</head>
+<body>
+    <header>
+        <h2>Create a sign-up and sign-in form with proper validation</h2>
+    </header>
+    <main>
+
+        <fieldset>
+            <legend><strong>Sign In</strong></legend>
+            <article>
+                <form action="/signin" method="post">
+                    <br>
+                    <label for="loginemail">Username:</label><br>
+                    <input type="email" name="loginemail" id="loginemail" placeholder="Please enter your email" required>
+                    <br><br>
+
+                    <label for="loginpassword">Password:</label><br>
+                    <input type="password" name="loginpassword" id="loginpassword" placeholder="Please enter your password" required>
+                    <br><br>
+
+                    <input type="checkbox" name="rememberme" id="rememberme" required>
+                    <label for="rememberme"><small>Remember Me</small></label>
+                    <br><br>
+
+                    <label for=""></label>
+                    <input type="submit" value="Login">
+
+                    <label for=""><small style="padding: 2%;">Forgot <a href="">password?</a></small></label>
+                    <br><br>
+
+                    <label for="">Don't Have Account? <a href="./forms/signup.html">Sign Up Now</a></label>
+
+
+
+                </form>
+            </article>
+        </fieldset>
+
+        
+    </main>
+</body>
+</html>

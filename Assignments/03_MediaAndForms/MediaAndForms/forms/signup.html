@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <main>
+
+        <fieldset>
+            <legend>Sign Up</legend>
+            <article>
+                <form action="/signup" method="post">
+                    <p>Please fill in this form to create an account.</p>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" id="firstname" placeholder="Enter your firstname" required minlength="3">
+                    <br><br>
+
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Enter your lastname" required minlength="3">
+                    <br><br>
+
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age" placeholder="" required min="1" max="150">
+                    <br><br>
+
+                    <label for="gender">Gender:</label>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female">
+                    <br><br>
+
+                    <label for="signupemail">Email:</label>
+                    <input type="email" name="signupemail" id="signupemail" placeholder="Enter your email" required minlength="3">
+                    <br><br>
+
+                    <label for="signuppassword">Password:</label>
+                    <input type="password" name="signuppassword" id="signuppassword" placeholder="Enter your password" required minlength="6">
+                    <br><br>
+
+                    <label for="confmpassword">Confirm Password:</label>
+                    <input type="password" name="confmpassword" id="confmpassword" placeholder="Re-enter your password" required minlength="6">
+                    <br><br>
+
+                    <input type="checkbox" name="termsandcondition" id="" required>
+                    <label style="padding-right: 5%;" for="termsandcondition"><small><a href="#">Agree to Terms and Conditions</a></small></label>
+                    
+                
+                    <input type="submit" value="Sign Up">
+
+                </form>
+            </article>
+        </fieldset>
+        
+    </main>
+</body>
+</html>
