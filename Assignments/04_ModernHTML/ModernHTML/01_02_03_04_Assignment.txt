@@ -1,0 +1,35 @@
+	Q1. 	List out the features of HTML5
+Solution 1. 	Features of HTML5:
+		1. Improved Multimedia Support - allows the integration of multimedia elements such as audio and video directly into web pages without the need for plugins like Flash
+		2. Canvas Element - introduced the <canvas> element which allows for dynamic, interactive graphics to be created and manipulated within a web page
+		3. Geolocation API - provides an API for obtaining  the user's location, enabling web applications to offer location-based services
+		4. Local Storage - introduced the localstorage API, which allows for the storage of data on the user's device, improving performance and reducing the need for round-trips to the server
+		5. New Structural Element - introduced new semantics elements such as <header>, <footer>, <nav>, <article> that makes it easier to structure and organise content on a web page
+		6. Form Improvements - introduced several improvements to forms, including new input types like date, time, and colour, as well as new attributes such as required and autofocus
+		7. Accessibility Improvements - provides better support for accessibility, including the ability to provide alternative text for images and improved support for screen readers
+
+	Q2. 	What are HTML Entities? List out 5 commonly used HTML entities.
+Solution 2.	HTML Entities are  strings of text that start with an ampersand symbol(&) and end with a semicolon(;). These entities are commonly used to demonstrate characters that are reversed (otherwise, they would be interpreted as HTML code) and imperceptible characters such as non-breaking spaces.
+		List of 5 commonly used HTML Entities:
+		1. &amp; 	-> 	&
+		2. &copy;	->	(Copyright symbol)
+		3. &gt; 	->	>
+		4. &lt; 	->	<
+		5. &quot; 	->	"
+
+	Q3.	Define accessibility in the context of web development. Discuss why it's essential to create accessible websites and how it benefits different user groups
+Solution 3.	Web accessibility refers to the practice of designing and developing websites, web applications, and other digital content that can be accessed and used by people with disabilities or different needs, without barriers or limitations.
+		Why its esential to create accessible websites:
+			The Web offers the possibility of unprecedented access to information and interaction for many people with disabilities. That is, the accessibility barriers to print, audio, and visual media can be much more easily overcome through web technologies
+			The Web is an increasingly important resource in many aspects of life: education, employment, government, commerce, health care, recreation, and more. It is essential that the Web be accessible in order to provide equal access and equal opportunity to people with diverse abilities.
+	
+		Benefits to different user groups:
+		1. Screen Reader - A screen reader is a sofware that reads out load the contnet of a webpage to individuals who are visually impaired. It can also interpret and communicate information about graphics, multimedia, and other elements on the page
+		2. Voice Recognition software - It enables user to navigate web pages and input text using voice commands. This technology is particulary useful for individuals with mobility impairments or those who have difficulty using a keyboard or mouse
+		3. Keyboard alternatives - such as sip-and-puff devices, head-tracking devices, and eye-tracking devices allow individuals with physical disabilities to navigate and interact with web pages without the use of a traditional keyboard or mosue
+
+	Q4.	List any 3 ways which help us in improving the accessibilty of HTML
+Solution 4.	1. Page Layout - altough it is possible to design a layout using nested <div> elements, it is prefereable to utilise proper sectioning elements to encapsulate your main navigation (<nav>), footer (<footer>), repeated content units (<article>), and other relevant content.
+			These elements offer additional semantics to screen readers and other assertive tools, providing users with more context and information about the content they are browsing
+		2. Alt attribute - it is an important attribute in HTML that is used to provide alternative text for an image if the image cannot be displayed or if the user is using a screen reader to access the page. The alternate text will be displayed in case the user is not able to load the image
+		3. Accessible Rich Internet Applications (ARIA) - it comprises roles that establish methods for improving the accessibility of web content and web applications, for individuals with disabilities. For content that comprises an external container eclosing a group of items wihtin it, assitive technologies can recognize the "list" and "listen" containers, respectively
